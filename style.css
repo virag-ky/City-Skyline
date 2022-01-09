@@ -14,6 +14,8 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  position: absolute;
+  top: 0;
 }
 #bb1 {
   width: 10%;
@@ -36,10 +38,30 @@ body {
   height: 65%;
 }
 #bb6 {
-  width: 8%;
+  width: 6%;
   height: 75%;
 }
 #bb7 {
   width: 10%;
   height: 55%;
+}
+#fb1 {
+  width: 10%;
+  height: 45%;
+}
+#fb2 {
+  width: 10%;
+  height: 35%;
+}
+#fb3 {
+  width: 18%;
+  height: 50%;
+}
+#fb4 {
+  width: 10%;
+  height: 40%;
+}
+#fb5 {
+  width: 10%;
+  height: 30%;
 }
