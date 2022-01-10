@@ -76,6 +76,7 @@ body {
 
 .border-day {
   border: 1px solid rgb(48, 47, 47);
+  border-bottom: none;
 }
 .window-display {
   display: flex;
@@ -98,6 +99,7 @@ body {
 #bb1 {
   width: 10%;
   height: 55%;
+  padding: 3px;
 }
 
 .bb1-window {
@@ -266,4 +268,61 @@ body {
 .fb5-window {
   width: 80%;
   height: 5%;
+}
+@media (max-width: 600px) {
+  #bb1 {
+    display: none;
+  }
+  #bb2,
+  #bb4,
+  #bb5,
+  #bb6,
+  #bb7 {
+    width: 15%;
+  }
+  #bb2 {
+    height: 70%;
+  }
+  #bb3 {
+    height: 50%;
+  }
+  #bb4 {
+    height: 70%;
+  }
+  #bb5 {
+    height: 85%;
+  }
+  #bb6 {
+    height: 55%;
+  }
+  #bb7 {
+    height: 50%;
+  }
+  #fb1,
+  #fb2,
+  #fb3,
+  #fb4,
+  #fb5 {
+    width: 18%;
+  }
+  #fb1 {
+    height: 30%;
+    position: relative;
+    left: 5%;
+    padding: 5px;
+  }
+  #fb2 {
+    height: 35%;
+  }
+  #fb3 {
+    height: 42%;
+  }
+  #fb4 {
+    left: 10%;
+    height: 35%;
+  }
+  #fb5 {
+    height: 25%;
+    right: 25%;
+  }
 }
