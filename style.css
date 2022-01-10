@@ -1,4 +1,8 @@
-*:not(#foreground-buildings div) {
+:root {
+  --building-color: rgb(154, 169, 175);
+  --window-color: rgb(213, 243, 252);
+}
+*:not(#background-buildings div) {
   box-sizing: border-box;
   border: 1px solid;
 }
@@ -6,6 +10,7 @@ body {
   margin: 0;
   height: 100vh;
   overflow: hidden;
+  background-color: rgb(183, 236, 252);
 }
 #background-buildings,
 #foreground-buildings {
@@ -38,10 +43,12 @@ body {
 #bb1 {
   width: 10%;
   height: 50%;
+  background-color: var(--building-color);
 }
 .bb1-window {
   width: 40%;
   height: 15%;
+  background-color: var(--window-color);
 }
 /*background building 2*/
 #bb2 {
@@ -52,40 +59,48 @@ body {
   width: 5%;
   height: 10%;
   margin: auto;
+  background-color: var(--building-color);
 }
 #bb2b {
   width: 50%;
   height: 8%;
   margin: auto;
+  background-color: var(--building-color);
 }
 #bb2c {
   width: 100%;
   height: 82%;
   gap: 10%;
+  background-color: var(--building-color);
 }
 .bb2-window {
   width: 10%;
   height: 3%;
   margin: 5% 2% -20% 2%;
+  background-color: var(--window-color);
 }
 /*background building 3*/
 #bb3 {
   width: 20%;
   height: 60%;
+  background-color: var(--building-color);
 }
 .bb3-window {
   width: 40%;
   height: 15%;
+  background-color: var(--window-color);
 }
 /*background building 4*/
 #bb4 {
   width: 8%;
   height: 85%;
+  background-color: var(--building-color);
 }
 .bb4-window {
   width: 80%;
   height: 2%;
   margin: auto;
+  background-color: var(--window-color);
 }
 /*background building 5*/
 #bb5 {
@@ -98,32 +113,37 @@ body {
   position: relative;
   left: 30%;
   top: 18%;
+  background-color: var(--building-color);
 }
 #bb5b {
   width: 5%;
   height: 18%;
   margin-left: 70%;
+  background-color: var(--building-color);
 }
 #bb5c {
   width: 100%;
   height: 72%;
-
+  background-color: var(--building-color);
   gap: 4%;
 }
 .bb5-window {
   width: 10%;
   height: 5%;
   margin: 0 2%;
+  background-color: var(--window-color);
 }
 /*background building 6*/
 #bb6 {
   width: 6%;
   height: 75%;
+  background-color: var(--building-color);
 }
 .bb6-window {
   width: 85%;
   height: 1.5%;
   margin: auto;
+  background-color: var(--window-color);
 }
 /*background building 7*/
 #bb7 {
@@ -134,11 +154,13 @@ body {
   width: 30%;
   height: 10%;
   margin: auto;
+  background-color: var(--building-color);
 }
 #bb7b {
   width: 55%;
   height: 10%;
   margin: auto;
+  background-color: var(--building-color);
 }
 #bb7c {
   width: 100%;
@@ -146,10 +168,12 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: var(--building-color);
 }
 .bb7-window {
   height: 95%;
   width: 10%;
+  background-color: var(--window-color);
 }
 /*foreground building 1*/
 #fb1 {
