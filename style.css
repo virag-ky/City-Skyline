@@ -1,6 +1,6 @@
 *:not(#foreground-buildings div) {
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid;
 }
 body {
   margin: 0;
@@ -23,6 +23,12 @@ body {
   justify-content: space-evenly;
 }
 .window-display2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.window-display3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -55,10 +61,6 @@ body {
 #bb2c {
   width: 100%;
   height: 82%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
   gap: 10%;
 }
 .bb2-window {
@@ -105,6 +107,13 @@ body {
 #bb5c {
   width: 100%;
   height: 72%;
+
+  gap: 4%;
+}
+.bb5-window {
+  width: 10%;
+  height: 5%;
+  margin: 0 2%;
 }
 /*background building 6*/
 #bb6 {
@@ -120,6 +129,27 @@ body {
 #bb7 {
   width: 10%;
   height: 55%;
+}
+#bb7a {
+  width: 30%;
+  height: 10%;
+  margin: auto;
+}
+#bb7b {
+  width: 55%;
+  height: 10%;
+  margin: auto;
+}
+#bb7c {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bb7-window {
+  height: 95%;
+  width: 10%;
 }
 /*foreground building 1*/
 #fb1 {
