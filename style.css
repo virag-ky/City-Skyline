@@ -4,13 +4,29 @@
 }
 *:not(#background-buildings div) {
   box-sizing: border-box;
-  border: 1px solid;
 }
 body {
   margin: 0;
   height: 100vh;
   overflow: hidden;
-  background-color: rgb(183, 236, 252);
+}
+.day {
+  background: radial-gradient(
+    closest-corner circle at 12% 16%,
+    #ffcf33,
+    #ffcf33 20%,
+    #ffff66 21%,
+    #bbeeff 100%
+  );
+}
+.night {
+  background: radial-gradient(
+    closest-corner circle at 12% 16%,
+    #ccc,
+    #ccc 20%,
+    #445 21%,
+    rgb(24, 24, 29) 100%
+  );
 }
 #background-buildings,
 #foreground-buildings {
