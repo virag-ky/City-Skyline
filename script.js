@@ -6,6 +6,7 @@ const nightWindow4 = document.querySelectorAll(".night-window4");
 const nightWindow5 = document.querySelectorAll(".night-window5");
 const nightWindow6 = document.querySelectorAll(".night-window6");
 const nightBuilding = document.querySelectorAll(".night-building");
+const buildingBorder = document.querySelectorAll(".border-night");
 
 body.addEventListener("click", (e) => {
   body.classList.toggle("night");
@@ -15,6 +16,7 @@ body.addEventListener("click", (e) => {
   nightWindow4.forEach((window) => window.classList.toggle("night-window4"));
   nightWindow5.forEach((window) => window.classList.toggle("night-window5"));
   nightWindow6.forEach((window) => window.classList.toggle("night-window6"));
+  buildingBorder.forEach((border) => border.classList.toggle("border-night"));
   nightBuilding.forEach((building) =>
     building.classList.toggle("night-building")
   );
