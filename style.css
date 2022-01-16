@@ -273,7 +273,10 @@ body {
 }
 @media (max-width: 600px) {
   #bb1 {
-    display: none;
+    z-index: 2;
+    left: 10%;
+    width: 18%;
+    height: 40%;
   }
   #bb2,
   #bb4,
@@ -283,48 +286,61 @@ body {
     width: 15%;
   }
   #bb2 {
-    height: 70%;
+    height: 75%;
+    position: relative;
+    right: 12%;
   }
   #bb3 {
     height: 50%;
+    width: 15%;
+    position: relative;
+    right: 8%;
   }
   #bb4 {
     height: 70%;
+    position: relative;
+    right: 6%;
   }
   #bb5 {
     height: 85%;
+    position: relative;
+    right: 4%;
   }
   #bb6 {
     height: 55%;
+    position: relative;
+    right: 3%;
   }
   #bb7 {
     height: 50%;
   }
   #fb1,
   #fb2,
-  #fb3,
   #fb4,
   #fb5 {
     width: 18%;
   }
   #fb1 {
-    height: 30%;
-    position: relative;
-    left: 5%;
+    height: 28%;
     padding: 5px;
+    z-index: 3;
+    right: 5%;
   }
   #fb2 {
-    height: 35%;
-  }
-  #fb3 {
-    height: 42%;
+    height: 45%;
+    width: 30%;
+    position: relative;
+    right: 5%;
   }
   #fb4 {
     left: 10%;
     height: 35%;
+    position: relative;
+    left: 5%;
   }
   #fb5 {
     height: 25%;
     right: 25%;
+    right: 30%;
   }
 }
