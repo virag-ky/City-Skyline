@@ -98,7 +98,7 @@ body {
 /*background building 1*/
 #bb1 {
   width: 10%;
-  height: 55%;
+  height: 52%;
   padding: 3px;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 #bb2a {
   width: 5%;
-  height: 10%;
+  height: 20%;
   margin: auto;
 }
 #bb2b {
@@ -133,7 +133,7 @@ body {
 }
 /*background building 3*/
 #bb3 {
-  width: 15%;
+  width: 12%;
   height: 75%;
 }
 .bb3-window {
@@ -143,7 +143,7 @@ body {
 /*background building 4*/
 #bb4 {
   width: 8%;
-  height: 85%;
+  height: 95%;
 }
 .bb4-window {
   width: 80%;
@@ -194,12 +194,12 @@ body {
   height: 65%;
 }
 #bb7a {
-  width: 30%;
+  width: 35%;
   height: 10%;
   margin: auto;
 }
 #bb7b {
-  width: 55%;
+  width: 60%;
   height: 10%;
   margin: auto;
 }
@@ -212,7 +212,7 @@ body {
 }
 .bb7-window {
   height: 95%;
-  width: 10%;
+  width: 6%;
 }
 /*foreground building 1*/
 #fb1 {
