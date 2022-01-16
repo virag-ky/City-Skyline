@@ -95,17 +95,18 @@ body {
   height: 45%;
   padding: 3px 12px;
   position: relative;
-  left: 9%;
+  left: 10%;
 }
 
 .bb1-window {
-  width: 34%;
-  height: 30%;
+  width: 20%;
+  height: 40%;
+  margin: 0 1px;
 }
 /*background building 2*/
 #bb2 {
-  width: 10%;
-  height: 80%;
+  width: 12%;
+  height: 85%;
 }
 #bb2a {
   width: 5%;
@@ -187,7 +188,7 @@ body {
 /*background building 7*/
 #bb7 {
   width: 10%;
-  height: 65%;
+  height: 70%;
   position: relative;
   right: 2%;
 }
@@ -217,6 +218,7 @@ body {
   width: 10%;
   height: 35%;
   position: relative;
+  left: 5%;
 }
 .fb1-window {
   width: 35%;
@@ -225,7 +227,7 @@ body {
 }
 /*foreground building 2*/
 #fb2 {
-  width: 15%;
+  width: 12%;
   height: 60%;
   padding: 20px;
 }
