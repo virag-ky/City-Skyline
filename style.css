@@ -58,11 +58,6 @@ body {
   background-color: rgb(252, 88, 252);
   box-shadow: 0 0 3px 1px rgb(171, 78, 248);
 }
-.night-window6 {
-  background-color: rgb(161, 119, 247);
-  box-shadow: 0 0 3px 1px rgb(129, 27, 245);
-}
-
 #background-buildings,
 #foreground-buildings {
   width: 100%;
@@ -74,7 +69,7 @@ body {
   top: 0;
 }
 
-.border-day {
+.border {
   border: 1px solid rgb(48, 47, 47);
   border-bottom: none;
 }
@@ -98,13 +93,15 @@ body {
 /*background building 1*/
 #bb1 {
   width: 10%;
-  height: 52%;
-  padding: 3px;
+  height: 45%;
+  padding: 3px 12px;
+  position: relative;
+  left: 5%;
 }
 
 .bb1-window {
-  width: 40%;
-  height: 15%;
+  width: 34%;
+  height: 30%;
 }
 /*background building 2*/
 #bb2 {
@@ -218,6 +215,8 @@ body {
 #fb1 {
   width: 10%;
   height: 35%;
+  position: relative;
+  left: 2%;
 }
 .fb1-window {
   width: 35%;
@@ -229,6 +228,8 @@ body {
   width: 10%;
   height: 48%;
   padding: 15px;
+  position: relative;
+  left: 3%;
 }
 .fb2-window {
   width: 15%;
@@ -237,9 +238,9 @@ body {
 /*foreground building 4*/
 #fb4 {
   width: 10%;
-  height: 40%;
+  height: 60%;
   position: relative;
-  left: 5%;
+  left: 10%;
 }
 .fb4-window {
   width: 18%;
@@ -251,7 +252,7 @@ body {
   width: 10%;
   height: 30%;
   position: relative;
-  right: 15%;
+  right: 10%;
 }
 .fb5-window {
   width: 80%;
