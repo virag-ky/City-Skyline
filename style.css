@@ -1,5 +1,6 @@
 :root {
   --building-color: rgb(154, 169, 175);
+  --building-color2: rgb(83, 82, 82);
   --window-color: rgb(213, 243, 252);
 }
 * {
@@ -39,6 +40,9 @@ body {
 .night-building {
   background-color: dimgray;
 }
+.night-building2 {
+  background-color: var(--building-color2);
+}
 .night-window1 {
   background-color: Aqua;
   box-shadow: 0 0 2px 2px rgb(3, 187, 248);
@@ -68,11 +72,6 @@ body {
   position: absolute;
   top: 0;
 }
-
-.border {
-  border: 1px solid rgb(48, 47, 47);
-  border-bottom: none;
-}
 .window-display {
   display: flex;
   flex-direction: column;
@@ -96,7 +95,7 @@ body {
   height: 45%;
   padding: 3px 12px;
   position: relative;
-  left: 5%;
+  left: 9%;
 }
 
 .bb1-window {
@@ -134,8 +133,8 @@ body {
   height: 75%;
 }
 .bb3-window {
-  width: 35%;
-  height: 10%;
+  width: 34%;
+  height: 5%;
 }
 /*background building 4*/
 #bb4 {
@@ -189,6 +188,8 @@ body {
 #bb7 {
   width: 10%;
   height: 65%;
+  position: relative;
+  right: 2%;
 }
 #bb7a {
   width: 35%;
@@ -216,7 +217,6 @@ body {
   width: 10%;
   height: 35%;
   position: relative;
-  left: 2%;
 }
 .fb1-window {
   width: 35%;
@@ -225,11 +225,24 @@ body {
 }
 /*foreground building 2*/
 #fb2 {
-  width: 10%;
-  height: 48%;
-  padding: 15px;
-  position: relative;
-  left: 3%;
+  width: 13%;
+  height: 60%;
+  padding: 20px;
+}
+#fb2a {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+}
+#fb2b {
+  width: 80%;
+  height: 10%;
+  margin: auto;
+}
+#fb2c {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
 }
 .fb2-window {
   width: 15%;
@@ -238,7 +251,7 @@ body {
 /*foreground building 4*/
 #fb4 {
   width: 10%;
-  height: 60%;
+  height: 50%;
   position: relative;
   left: 10%;
 }
@@ -250,13 +263,13 @@ body {
 /*foreground building 5*/
 #fb5 {
   width: 10%;
-  height: 30%;
+  height: 40%;
   position: relative;
-  right: 10%;
+  right: 18%;
 }
 .fb5-window {
   width: 80%;
-  height: 5%;
+  height: 2%;
 }
 @media (max-width: 600px) {
   #bb1 {
